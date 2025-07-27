@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black; 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 2000px; */
+    font-size: 30px;
+}
+
+/* .author-name{
+    display: flex;
+    justify-content: center;
+    top: 30px;
+}
+.author-year{
+    display: flex;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    justify-content: center;
+
+} */
+.author{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.author-pic{
+    display: flex;
+    left: 20px;
+    position: relative;
+    right: 20px;
+    top: 40px; 
+    justify-content: center;
+}   
+   
+.profile{
+    height: 400px;
+    width: 300px;
+    
+}    
+.profile1{
+    height: 400px;
+    width: 300px;
+}
+.profile2{
+    top: 450px;
+    width:600px;
+}
+.star{
+    position: relative;
+    top: 80px;
+    right: 20px;
+    left: 20px;
+    justify-content: space-between;
+}
+
